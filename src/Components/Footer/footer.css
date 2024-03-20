@@ -1,0 +1,22 @@
+.footer-contianer{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    gap: 7px;
+    padding: 10px;
+    border: 1px solid rgb(211, 205, 205);
+}
+.footer-head{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.dyno-logo{
+    height: 45px;
+    width: 45px;
+    margin-top: 7px;
+}

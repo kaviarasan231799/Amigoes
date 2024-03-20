@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.melting-contianer{
+    height: 80vh;
+    width: 100vw;
+    background-color: #e6e8eb ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inside-melting{
+    display: flex;
+    align-items: center;
+    height: 55%;
+    width: 99%; 
+    max-width: 100vw;
+}
+
+.furnace-1,.furnace-2,.furnace-3,.lpdc{
+    background-color:  #fff;
+    box-shadow: 4px 4px 4px rgba(0.40,0.40,0.40,0.40);
+    border-radius: 10px;
+    padding:20px;
+    margin: 8px;
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 10px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.furnace-1:hover{
+ box-shadow: 7px 7px 7px  rgba(1,1,1,1);
+}
+.furnace-2:hover{
+    box-shadow: 7px 7px 7px rgba(1,1,1,1);
+   }
+   .furnace-3:hover{
+    box-shadow: 7px 7px 7px rgba(1,1,1,1);
+   }
+   .lpdc:hover{
+    box-shadow: 7px 7px 7px rgba(1,1,1,1);
+   }
+ 
+   .active{
+    border: 3px solid #039ed6;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+
+
+
+.inside-furncae-1,.inside-furncae-2,.inside-furncae-3,.inside-lpdc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.furncae-head{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+}
+.furnace-para{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 7px;
+}
+
+.select-tones{
+    margin: 5px;
+    height: 25px;
+    font-weight: 600;
+    width: 80px;
+}
+
+
+
+.table-melting-container{
+    background-color:  #fff;
+    box-shadow: 4px 4px 4px rgba(0.50,0.50,0.50,0.50);
+    margin: 5px;
+    height: 52%;
+    padding: 20px;
+    width: 99%;
+    border-radius: 5px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.head-summary{
+    font-size: 17px;
+    padding: 10px;
+}

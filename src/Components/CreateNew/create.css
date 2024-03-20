@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.create-container{
+    background-color:  #e6e8eb;
+    height: 80vh;
+    width: 100vw;
+    padding: 10px;
+}
+.inside-create-contianer{
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0.40,0.40,0.40,0.40);
+    margin: 10px;
+    width: 99%;
+    height: 90%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 12px;
+}
+
+.create-input-container{
+   display: flex;
+   gap: 2rem;
+}
+.create-customer{
+    height: 45px;
+    width: 240px;
+    border-radius: 7px;
+    padding: 8px;
+    border: 2px solid #78787a;
+}
+.create-chemical-container{
+    background-color: #d7d7db;
+    border: 1px solid rgb(157, 156, 156);
+    border-radius: 4px;
+    overflow: scroll;
+}
+.enter-heading{
+    font-size: 14px;
+}
+.inside-create-chemicals{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.inside-chemicals-buttons{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.plus-button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    height: 20px;
+}
+.minus-button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+.minus-button,.plus-button:hover{
+    border: 1px solid rgb(1, 81, 167);
+    border-radius: 50%;
+    height: 20px;
+}
+.create-button-chemical{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #78787a;
+    cursor: pointer;
+}
+.create-button-chemical:hover{
+    background-color: rgb(57, 126, 195);
+    color: #fff;
+}
+
+.minimum-input,.maxmium-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 35px;
+}
+.create-button-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.create-submit-button{
+    height: 40px;
+    width: 90px;
+    border-radius: 7px;
+    border: 0px;
+    background-color:  #039ed6;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    gap: 5px;
+}
+.create-reset-button{
+    height: 40px;
+    width: 90px;
+    border-radius: 7px;
+    border: 0px;
+    background-color:  #039ed6;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    gap: 5px;
+}
+
+.min-max{
+    display: flex;
+    margin-left: 1rem;
+    padding-left: 20px;
+    gap: 19px;
+}
+.min-max-para{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 3px;
+}
+.c-chemical{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.input-chemical{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    padding: 10px;
+}
+.c-inside{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    height: 30%;
+    width: 11%;
+}
+
+.c-inside, p{
+    font-weight: 500;
+}
